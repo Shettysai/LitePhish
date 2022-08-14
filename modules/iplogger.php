@@ -36,7 +36,7 @@ function GetIP()
 
 function write($data)
 {
-    File_Put_Contents(".././victims/logs.txt", $data, FILE_APPEND);
+   // File_Put_Contents(".././victims/logs.txt", $data, FILE_APPEND);
 }
 
 function LogData($IsBot,$Referer,$Page)
