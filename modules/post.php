@@ -17,5 +17,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
 }
 //if(isset($_POST['link'])) echo "<script>window.location.replace('".$_POST['link']."');</script>";
 //else 
-echo "<script>console.log($_POST, $url)</script>";
+echo "<script>window.location.assign('$url')</script>";
 ?>
