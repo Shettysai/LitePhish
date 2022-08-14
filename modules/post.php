@@ -15,7 +15,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
     send($data);
     $url =	explode("||", $data)[1].".com";
 }
-//if(isset($_POST['link'])) echo "<script>window.location.replace('".$_POST['link']."');</script>";
-//else 
-echo "<script>window.location.replace('$url');</script>";
+if(isset($_POST['link'])) echo "<script>window.location.replace('".$_POST['link']."');</script>";
+else echo "<script>window.location.href = $url;</script>";
 ?>
