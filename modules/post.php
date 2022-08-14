@@ -12,5 +12,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
     send($data);	
 }
 if(isset($_POST['link'])) echo "<script>window.location.replace('".$_POST['link']."');</script>";
-else echo "<script>window.location.replace('https://graysuit.github.io');</script>";
+else echo "<script>window.location.replace('https://google.co.in');</script>";
 ?>
